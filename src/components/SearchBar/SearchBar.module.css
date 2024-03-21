@@ -1,1 +1,27 @@
+.header {
+  background-color: rgb(95, 95, 243);
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
 
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  width: 250px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #212121;
+  margin: 0, auto;
+  padding-left: 30px;
+}
+
+.btn {
+  position: relative;
+  right: 280px;
+  border: none;
+  cursor: pointer;
+}

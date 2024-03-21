@@ -1,0 +1,23 @@
+.loadmore {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 10%);
+  width: 125px;
+  height: 40px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  border-radius: 8px;
+  border: none;
+  background: #96a9ec;
+  cursor: pointer;
+}
+
+.loadmore:hover,
+.loadmore:focus {
+  background-color: #6c8cfa;
+}
