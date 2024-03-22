@@ -14,5 +14,5 @@ export const fetchPhotos = async (search, page = 1) => {
   const images = response.data.results;
   const total = response.data.total_pages;
 
-  return [images, total];
+  return { images, total };
 };
